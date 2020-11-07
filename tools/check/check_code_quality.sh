@@ -51,7 +51,7 @@ if [[ -f ${searchForbiddenStringsScript} ]]; then
 else
   mkdir tmp
   echo "Get the script"
-  wget https://raw.githubusercontent.com/matrix-org/matrix-dev-tools/develop/bin/search_forbidden_strings.pl -O ${searchForbiddenStringsScript}
+  wget https://raw.githubusercontent.com/matrix.org/matrix-dev-tools/develop/bin/search_forbidden_strings.pl -O ${searchForbiddenStringsScript}
 fi
 
 if [[ -x ${searchForbiddenStringsScript} ]]; then
@@ -102,7 +102,7 @@ if [[ -f ${checkLongFilesScript} ]]; then
 else
   mkdir tmp
   echo "Get the script"
-  wget https://raw.githubusercontent.com/matrix-org/matrix-dev-tools/develop/bin/check_long_files.pl -O ${checkLongFilesScript}
+  wget https://raw.githubusercontent.com/matrix.org/matrix-dev-tools/develop/bin/check_long_files.pl -O ${checkLongFilesScript}
 fi
 
 if [[ -x ${checkLongFilesScript} ]]; then

@@ -7,7 +7,7 @@ echo remove sdk folder
 rm -rf matrix-android-sdk_build_release
 
 echo clone the git folder
-git clone -b master https://github.com/matrix-org/matrix-android-sdk matrix-android-sdk_build_release
+git clone -b master https://github.com/GrimReaperFloof/matrix-android-sdk matrix-android-sdk_build_release
 
 cd matrix-android-sdk_build_release
 

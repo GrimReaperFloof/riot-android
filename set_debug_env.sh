@@ -8,6 +8,6 @@ echo "remove sdk folder"
 rm -rf ../matrix-android-sdk
 
 echo "clone the git folder"
-git clone -b develop https://github.com/matrix-org/matrix-android-sdk ../matrix-android-sdk
+git clone -b develop https://github.com/GrimReaperFloof/matrix-android-sdk ../matrix-android-sdk
 
 ./compile_with_sdk_project.sh
